@@ -19,8 +19,8 @@ checksum = "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe"
 
 [[package]]
 name = "adnl"
-version = "0.7.77"
-source = "git+https://github.com/tonlabs/ton-labs-adnl.git?tag=0.7.77#1cacf2faa61714055f75968f8ad6efadf4f87aa1"
+version = "0.7.75"
+source = "git+https://github.com/tonlabs/ton-labs-adnl.git?tag=0.7.75#63d5d7ed9f7a51b01524b0c91d3b43f98d43bb7e"
 dependencies = [
  "aes-ctr",
  "async-trait",
@@ -338,8 +338,8 @@ dependencies = [
 
 [[package]]
 name = "ever-crypto"
-version = "0.1.35"
-source = "git+https://github.com/tonlabs/ever-labs-crypto.git?tag=0.1.35#1eba8cdc9fda2b3a506a7de6a69c44cc8086a610"
+version = "0.1.29"
+source = "git+https://github.com/tonlabs/ever-labs-crypto.git?tag=0.1.29#ea7870e1c3c988708915bbab1d3d3aeac38b28c5"
 dependencies = [
  "aes-ctr",
  "async-trait",
@@ -1239,7 +1239,7 @@ dependencies = [
 
 [[package]]
 name = "rldp"
-version = "0.7.71"
+version = "0.7.69"
 dependencies = [
  "adnl",
  "async-trait",
@@ -1566,8 +1566,8 @@ dependencies = [
 
 [[package]]
 name = "ton_api"
-version = "0.2.131"
-source = "git+https://github.com/tonlabs/ton-labs-tl.git?tag=0.2.131#f723789f6e48facdb53898c31f5c8ed2dda2df00"
+version = "0.2.129"
+source = "git+https://github.com/tonlabs/ton-labs-tl.git?tag=0.2.129#404e7b9f219fc20b04b773a9a3f3a481ed03a0bf"
 dependencies = [
  "byteorder",
  "extfmt",
@@ -1586,8 +1586,8 @@ dependencies = [
 
 [[package]]
 name = "ton_block"
-version = "1.8.3"
-source = "git+https://github.com/tonlabs/ton-labs-block.git?tag=1.8.3#8f39a1b467919d5fb3129800f07357883be82d77"
+version = "1.8.0"
+source = "git+https://github.com/tonlabs/ton-labs-block.git?tag=1.8.0#403010107636ec9cb2bcc75d09b75147c72b0d82"
 dependencies = [
  "base64",
  "crc 3.0.0",
@@ -1605,7 +1605,7 @@ dependencies = [
 [[package]]
 name = "ton_tl_codegen"
 version = "0.0.2"
-source = "git+https://github.com/tonlabs/ton-labs-tl.git?tag=0.2.131#f723789f6e48facdb53898c31f5c8ed2dda2df00"
+source = "git+https://github.com/tonlabs/ton-labs-tl.git?tag=0.2.129#404e7b9f219fc20b04b773a9a3f3a481ed03a0bf"
 dependencies = [
  "crc 1.8.1",
  "failure",
@@ -1619,8 +1619,8 @@ dependencies = [
 
 [[package]]
 name = "ton_types"
-version = "1.11.4"
-source = "git+https://github.com/tonlabs/ton-labs-types.git?tag=1.11.4#fd69a6b848ddfacee86cc6b76c3ff36d61f3e1f7"
+version = "1.11.3"
+source = "git+https://github.com/tonlabs/ton-labs-types.git?tag=1.11.3#d62ead62339f17fda171fe45f19f5c7452e724bb"
 dependencies = [
  "base64",
  "crc 1.8.1",
