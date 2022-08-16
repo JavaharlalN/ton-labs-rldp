@@ -1296,6 +1296,7 @@ impl Subscriber for RldpNode {
                 }
             },
             RldpMessagePartBoxed::Rldp_MessagePart(msg) => {
+                writer::write_message("message part from RLDP", &hex::encode(msg.data.to_vec()));
                 let transfer_id = msg.transfer_id.as_slice();
                 loop {
                     let result = if let Some(transfer) = self.transfers.get(transfer_id) {
